@@ -2,7 +2,7 @@ import React from 'react';
 import 'isomorphic-fetch';
 import MovieReviews from './MovieReviews'
 
-const NYT_API_KEY = 'd5dad6d196ce48d0adc1f3a955a58810';
+const NYT_API_KEY = '';
 const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/search.json?'
             + `api-key=${NYT_API_KEY}`;
 
