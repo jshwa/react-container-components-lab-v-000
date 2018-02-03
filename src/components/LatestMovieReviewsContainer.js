@@ -10,7 +10,7 @@ class LatestMovieReviewsContainer extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      reviews: ["Loading"]
+      reviews: []
     }
   }
 
